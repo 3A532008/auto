@@ -1,10 +1,16 @@
 {
-    "name": "admin/auto",
-    "authors": [
-        {
-            "name": "3A532008",
-            "email": "isme1788@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "admin/auto",
+  "authors": [
+    {
+      "name": "3A532008",
+      "email": "isme1788@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "./src/Demo"
+    }
+  }
+
 }
